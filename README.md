@@ -30,6 +30,7 @@
 ---
 
 ## 🎮 Calm Animated SVG
+<p align="center">
 
 <svg viewBox="0 0 400 140" width="400" height="140" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Calm animated orbit">
   <!-- Title text -->
@@ -69,7 +70,7 @@
   </text>
 </svg>
 
-
+</p>
 ---
 
 ## 📊 GitHub Stats
