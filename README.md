@@ -1,26 +1,26 @@
-<h1 align="center">👋 Hola, soy Jacobo24</h1>
-<h3 align="center">Estudiante de Ingeniería Matemática | Entusiasta del análisis de datos</h3>
+<h1 align="center">👋 Hey, I'm Jacobo24</h1>
+<h3 align="center">Mathematical Engineering Student | Data & Python Enthusiast</h3>
 
 ---
 
-## 🧠 Sobre mí
-- 📚 Actualmente estudiando **Ingeniería Matemática**  
-- 🐍 Trabajo principalmente con **Python** y librerías como `pandas`, `numpy`, `pyspark`, etc.  
-- 🌐 También utilizo **HTML** para desarrollo web básico  
-- 🎯 Me interesa el análisis de datos, modelamiento matemático y machine learning  
-- 🚀 Busco mejorar continuamente mis proyectos en GitHub  
+## 🧠 About Me
+- 🎓 Currently studying **Mathematical Engineering**
+- 🐍 Mainly work with **Python** (`pandas`, `numpy`, `pyspark`, etc.)
+- 🌐 Also familiar with basic **HTML**
+- 📊 Passionate about data analysis, mathematical modeling, and computational problem solving
+- 🚀 Always learning and building new projects
 
 ---
 
-## 🛠️ Tecnologías y herramientas
+## 🛠️ Tech Stack
 
-### Lenguajes
+### Languages
 <p align="left">
   <img src="https://img.shields.io/badge/Python-3670A0?logo=python&logoColor=ffdd54" />
   <img src="https://img.shields.io/badge/HTML5-E34F26?logo=html5&logoColor=white" />
 </p>
 
-### Librerías principales
+### Libraries
 <p align="left">
   <img src="https://img.shields.io/badge/Pandas-150458?logo=pandas&logoColor=white" />
   <img src="https://img.shields.io/badge/Numpy-013243?logo=numpy&logoColor=white" />
@@ -29,15 +29,16 @@
 
 ---
 
-## 🎮 Mini-juego dinámico (Snake en SVG)
-> Este juego se genera automáticamente como imagen dinámica.  
+## 🎮 Animated Mini-Game (Pac-Man)
+> A fun moving animation to make the profile more interactive.
+
 <p align="center">
-  <img src="https://github.com/Platane/snk/raw/output/github-contribution-grid-snake.svg" alt="snake gif" />
+  <img src="https://media.giphy.com/media/l3vR85PnGsBwu1PFK/giphy.gif" width="500" alt="pac-man animation" />
 </p>
 
 ---
 
-## 📊 Mis estadísticas de GitHub
+## 📊 GitHub Stats
 
 <p align="center">
   <img width="48%" src="https://github-readme-stats.vercel.app/api?username=Jacobo24&show_icons=true&theme=tokyonight" />
@@ -46,10 +47,10 @@
 
 ---
 
-## 🌟 Visitas al perfil
+## 🌟 Profile Views
+
 <p align="center">
-  <img src="https://komarev.com/ghpvc/?username=Jacobo24&label=Visitas&color=blue&style=flat" alt="Profile views"/>
+  <img src="https://komarev.com/ghpvc/?username=Jacobo24&label=Profile%20Views&color=blue&style=flat" />
 </p>
 
 ---
-
