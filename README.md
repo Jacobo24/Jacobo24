@@ -29,48 +29,52 @@
 
 ---
 
-## 🎮 Calm Animated SVG
-<p align="center">
+## 🌊 Calm Animated SVG (Waves)
 
-<svg viewBox="0 0 400 140" width="400" height="140" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Calm animated orbit">
-  <!-- Title text -->
+<p align="center">
+<svg width="400" height="140" viewBox="0 0 400 140" xmlns="http://www.w3.org/2000/svg">
+  
+  <!-- Background card -->
+  <rect x="10" y="10" width="380" height="120" rx="20" fill="#0f172a"/>
+
+  <!-- Title -->
   <text x="200" y="40" text-anchor="middle" fill="#e5e7eb" font-size="18" font-family="Verdana, sans-serif">
-    Orbiting ideas in motion
+    Flowing Ideas
   </text>
 
-  <!-- Central planet -->
-  <circle cx="200" cy="85" r="18" fill="#38bdf8">
-    <animate attributeName="r" values="16;18;16" dur="4s" repeatCount="indefinite" />
+  <!-- Wave lines -->
+  <path id="wave" fill="none" stroke="#38bdf8" stroke-width="2"
+        d="M 20 90 Q 60 60 100 90 T 180 90 T 260 90 T 340 90">
+    <animate attributeName="d" dur="4s" repeatCount="indefinite"
+      values="
+      M 20 90 Q 60 60 100 90 T 180 90 T 260 90 T 340 90;
+      M 20 90 Q 60 120 100 90 T 180 90 T 260 90 T 340 90;
+      M 20 90 Q 60 60 100 90 T 180 90 T 260 90 T 340 90" />
+  </path>
+
+  <path id="wave2" fill="none" stroke="#a5b4fc" stroke-width="2" opacity="0.5"
+        d="M 20 100 Q 80 70 140 100 T 260 100 T 340 100">
+    <animate attributeName="d" dur="5s" repeatCount="indefinite"
+      values="
+      M 20 100 Q 80 70 140 100 T 260 100 T 340 100;
+      M 20 100 Q 80 130 140 100 T 260 100 T 340 100;
+      M 20 100 Q 80 70 140 100 T 260 100 T 340 100" />
+  </path>
+
+  <!-- Floating circle -->
+  <circle cx="200" cy="95" r="6" fill="#fbbf24">
+    <animate attributeName="cy"
+             values="90;100;90"
+             dur="3s"
+             repeatCount="indefinite" />
   </circle>
 
-  <!-- Orbit path -->
-  <circle cx="200" cy="85" r="40" fill="none" stroke="#475569" stroke-dasharray="4 6" stroke-width="1.2" />
-
-  <!-- Orbiting moon -->
-  <g>
-    <circle cx="240" cy="85" r="7" fill="#fbbf24" />
-    <animateTransform attributeName="transform" attributeType="XML" type="rotate"
-      from="0 200 85" to="360 200 85" dur="10s" repeatCount="indefinite" />
-  </g>
-
-  <!-- Small floating dots -->
-  <circle cx="120" cy="70" r="3" fill="#a5b4fc">
-    <animate attributeName="cy" values="68;74;68" dur="5s" repeatCount="indefinite" />
-    <animate attributeName="opacity" values="0.3;1;0.3" dur="5s" repeatCount="indefinite" />
-  </circle>
-
-  <circle cx="280" cy="100" r="3" fill="#a5b4fc">
-    <animate attributeName="cy" values="98;104;98" dur="6s" repeatCount="indefinite" />
-    <animate attributeName="opacity" values="0.3;1;0.3" dur="6s" repeatCount="indefinite" />
-  </circle>
-
-  <!-- Subtext -->
   <text x="200" y="120" text-anchor="middle" fill="#9ca3af" font-size="12" font-family="Verdana, sans-serif">
-    Calm animation • Math • Data • Code
+    Soft animation • Waves • Math • Flow
   </text>
 </svg>
-
 </p>
+
 ---
 
 ## 📊 GitHub Stats
